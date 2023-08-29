@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.logo img {
+  height: 13vh;
+  /* Adjust the height of the logo as needed */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #004cff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 9px;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+  background-color: #004cff;
+  color: white;
+  border-radius: 20px;
+}
+
+/* Style the header */
+header {
+  background-color: black;
+  /* padding-bottom: 10px; */
+  color: #0084ff;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3vmax;
+}
+
+/* Style the main content */
+
+
+main {
+  /* margin: 10px; */
+  /* padding: auto; */
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('Images/Random/image3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 100vw; */
+  height: 630px;
+  font-weight: bolder;
+  font-size: larger;
+  position: relative;
+}
+
+
+
+
+/*   
+  /* Make the website responsive */
+/* @media screen and (max-width: 600px) { */
+/* header h1 {
+      font-size: 24px;
+    /* } */
+
+
+/* } */
+
+/* Style the quote container */
+.quote-container {
+  width: 100vw;
+  height: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+
+}
+
+
+
+
+/* Style the hover button */
+.hover-button {
+  margin-top: 10px;
+  padding: 15px 15px;
+  background-color: #0247f7;
+  color: #fff;
+  /* White text */
+  /* border: none; */
+  border-radius: 25px;
+  /* Rounded corners */
+  font-size: 1.2vmax;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Hover effect */
+.hover-button:hover {
+  background-color: #fff;
+  color: #0247f7;
+
+}
+
+
+/* Set the slideshow container */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* Set the slideshow container */
+.slideshow-container {
+  margin-top: 20px;
+  width: 100vw;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.slideshow-container .slidetext {
+  justify-content: center;
+
+}
+
+/* Style individual slides */
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Show the first slide on page load */
+.slide.active {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the footer */
+footer {
+  /* background-color: #333; Dark Grey */
+  color: #ff0202;
+  /* White */
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+
+/* STYLE SHEET CODE FOR EXPLORE.HTML PAGE */
+.main2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.introduction {
+  width: 100%;
+  height: 50%;
+  margin-top: 50px;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  /* position: relative; */
+  /* border: 2px solid black; */
+}
+
+.one {
+  position: relative;
+  width: 20%;
+  height: 70%;
+  /* margin: 30px; */
+  flex-wrap: wrap;
+  background-color: #fff;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .3);
+  transition: 0.3s all ease-in-out;
+  /* flex-wrap: wrap; */
+  border-radius: 10px;
+  cursor: pointer;
+  /* overflow: hidden; */
+}
+
+.one:hover .imgbox img {
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+
+.one:hover h2 {
+  transform: translateY(-270px);
+  /* font-size: 40px; */
+  color: #ff0000;
+  transition: 1.5s;
+}
+
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* transform: translateY(-80px); */
+}
+
+.imgbox img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  border-radius: 5px;
+
+}
+
+.content {
+  text-align: center;
+  /* padding: 10px; */
+  /* transform: translateY(-80px); */
+}
+
+.content h2 {
+  font-size: 35px;
+  color: #396afb;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+/* Leh Page CSS */
+.lehinfo {
+  width: 100%;
+  /* height: 1200px; */
+  /* background-color: aqua; */
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0px;
+  border: 0px 0px 2px 2px solid grey;
+  display: flex;
+  box-shadow: 0px 0px 15px 15px #387bed8d;
+  /* position: absolute; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-size: 1em; */
+}
+
+.info1 {
+  /* width: 70%; */
+  /* height: 500px; */
+  background-color: white;
+  width: 80%;
+  /* height: %; */
+}
+
+.sub-menu {
+  /* margin-top: 4px; */
+  background-color: rgba(159, 207, 249, 0.351);
+  padding: 13px;
+}
+
+section {
+  padding: 13px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+section h4 {
+  margin-top: 14px;
+  margin-bottom: 8px;
+  color: rgb(11, 83, 184);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+section li {
+  margin: 5px;
+}
+
+.info-right {
+  display: flex;
+  flex-direction: column;
+  flex: 20%;
+  /* height: 100%; */
+}
+
+.info2 {
+  width: 100%;
+  background-color: #888888;
+  /* height: 400px; */
+  /* flex: 30%; */
+  height: 60%;
+}
+
+.info3 {
+  width: 100%;
+  /* height: 450px; */
+  background-color: #333;
+  /* flex: 25%; */
+  height: 40%;
+}
